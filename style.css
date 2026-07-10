@@ -15,6 +15,12 @@
     border: none;
     color: #ffff;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #5b82ee;
+    color: #000;
 }
 
 /* navigation bar */
@@ -147,6 +153,12 @@ header div p {
     border: 2px solid #E5E7EB;
     display: grid;
     border-radius: 12px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    margin-top: -10px;
+    margin-bottom: 10px;
 }
 
 .card .card-info {
@@ -618,4 +630,81 @@ header div p {
         flex-direction: column;
         align-items: flex-start;
     }
+}
+
+/* footer section */
+footer {
+    background-color: #0D1B2A;
+    padding: 50px 150px;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 100%;
+}
+
+.footer-logo ul {
+    display: flex;
+    list-style: none;
+}
+
+.footer-logo li {
+    padding: 0 20px;
+}
+
+.footer-logo i {
+    font-size: 28px;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media h3 {
+    padding: 10px 0;
+    color: #fff;
+
+}
+
+.fa-facebook {
+    color: #1877F2;
+}
+
+.fa-instagram {
+    color: #E1306C;
+}
+
+.fa-pinterest {
+    color: #E60023;
+}
+
+.fa-twitter {
+    color: #1DA1F2;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    color: #868585;
+}
+
+.copyright ul {
+    list-style: none;
+    display: flex;
+}
+
+.copyright ul li {
+    margin: 10px;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: #868585;
 }
