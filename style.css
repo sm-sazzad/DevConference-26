@@ -114,3 +114,85 @@ header div p {
 .info h2 {
     margin-bottom: 8px;
 }
+
+/* spot section */
+.spot-section {
+    max-width: 72%;
+    margin: 30px auto;
+}
+
+.spot-section-text {
+    text-align: center;
+    margin: 48px 0;
+}
+
+.spot-section-text h1 {
+    font-size: 48px;
+}
+
+.spot-section-text p {
+    margin-top: 12px;
+    color: #0D1B2A;
+}
+
+.card-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    padding: 32px;
+    border: 2px solid #E5E7EB;
+    display: grid;
+    border-radius: 12px;
+}
+
+.card .card-info {
+    padding-bottom: 20px;
+    border-bottom: 2px solid #E5E7EB;
+}
+
+.card-info h1 {
+    padding: 8px 0 4px;
+    font-size: 44px;
+}
+
+.card-info p {
+    color: #888888;
+    font-weight: 600;
+}
+
+.card-info .p {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.card ul {
+    padding: 20px 0;
+    list-style-position: inside;
+    display: grid;
+    gap: 10px;
+    color: #333333;
+}
+
+.card li::marker {
+    /* I learned it from ChatGPT. */
+    color: #1D4ED8;
+}
+
+.button {
+    padding: 11px;
+    border-radius: 8px;
+    border: 2px solid #1D4ED8;
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    color: #1D4ED8;
+    cursor: pointer;
+}
+
+.box {
+    background-color: #0D1B2A;
+    color: #fff;
+}
